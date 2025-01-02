@@ -28,8 +28,7 @@ process.env.VITE_PUBLIC = VITE_DEV_SERVER_URL ? path.join(process.env.APP_ROOT, 
 
 let win: BrowserWindow | null
 
-}
-import { client, server } from '../test/zmq-bug';
+import { client, server } from '../tests/zmq-bug';
 
 function createWindow() {
   win = new BrowserWindow({
